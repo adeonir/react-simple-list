@@ -8,6 +8,7 @@
     "Atomics": "writable",
     "SharedArrayBuffer": "writable"
   },
+  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
