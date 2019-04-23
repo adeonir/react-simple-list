@@ -2,11 +2,74 @@
 *:before,
 *:after
   box-sizing: border-box
-
-body
-  background: #e9ebee
-  font-family: sans-serif
   margin: 0
   padding: 0
+
+body
+  background: #eceff1
+  font-family: sans-serif
   text-rendering: optimizeLegibility
   -webkit-font-smoothing: antialiased
+
+.header
+  align-items: center
+  background: #303f9f
+  border-bottom: 1px solid #1a237e
+  box-shadow: 0 3px 6px rgba(#263238, .4)
+  display: flex
+  font-weight: bold
+  height: 60px
+  justify-content: center
+
+  h3
+    font-size: 20px
+    color: #fff
+
+.post-container
+  display: flex
+  align-items: center
+  flex-direction: column
+  padding: 30px
+
+.post
+  max-width: 600px
+  width: 600px
+  background: #fff
+  padding: 20px
+  border-radius: 5px
+  box-shadow: 0 3px 6px rgba(#263238, .2)
+  border: 1px solid #cfd8dc
+  
+  &:not(:last-child)
+    margin-bottom: 30px
+
+  p
+    font-size: 14px
+    color: #37474f
+    line-height: 1.7
+    margin-top: 20px
+    padding-top: 20px
+    border-top: 1px solid #eceff1
+
+.post-header
+  display: flex
+  align-items: center
+
+  .avatar
+    width: 60px
+    height: 60px
+    border-radius: 50%
+    margin-right: 20px
+  
+  .data
+    display: flex
+    flex-direction: column
+
+  .name
+    color: #37474f
+    font-size: 16px
+
+  .time
+    color: #90a4ae
+    font-size: 12px
+    margin-top: 5px

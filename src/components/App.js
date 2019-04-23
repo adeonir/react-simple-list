@@ -34,10 +34,14 @@ class App extends Component {
   }
 
   render() {
+    const { posts } = this.state
+
     return (
       <Fragment>
         <Header />
-        <Post />
+        <div className="post-container">
+          {posts && posts.map(post => <Post key={post.id} data={post} />)}
+        </div>
       </Fragment>
     )
   }

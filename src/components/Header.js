@@ -1,5 +1,9 @@
 import React from 'react'
 
-const Header = () => <h1>Header</h1>
+const Header = () => (
+  <div className="header">
+    <h3>RocketBook</h3>
+  </div>
+)
 
 export default Header
