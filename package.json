@@ -1,8 +1,9 @@
 {
-  "name": "curso-goreact-desafio-1",
+  "name": "react-simple-list",
+  "description": "Simple React study project",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:adeonir/curso-goreact-desafio-1.git",
+  "repository": "git@github.com:adeonir/react-simple-list.git",
   "author": "Adeonir Kohl <adeonir@gmail.com>",
   "license": "MIT",
   "scripts": {
